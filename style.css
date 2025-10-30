@@ -1,5 +1,6 @@
 :root {
    --semgroen: #c3ffb7;
+   --zwart: #000000;
 }
 
 
@@ -25,7 +26,15 @@ header {
 }
 
 nav {
-
+background-color: var(--semgroen);
+grid-area: nav;
+border-radius: 20px;
+margin: 20px;
+justify-content: center;
+align-items: center;
+height: 40px;
+display: flex;
+outline: 2px solid var(--zwart);
 }
 main {
 
