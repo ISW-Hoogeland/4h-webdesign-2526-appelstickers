@@ -1,11 +1,26 @@
+:root {
+   --semgroen: #c3ffb7;
+}
+
+
+
+
 body {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+
 }
 
 header {
+   grid-area: header;
+   background-color: var(--semgroen);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 
 }
 
@@ -16,7 +31,7 @@ main {
 
 }
 footer {
-   
+
 }
 }
 
