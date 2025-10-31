@@ -1,6 +1,7 @@
 :root {
    --semgroen: #c3ffb7;
    --zwart: #000000;
+   --degrondachter: #f5eadd;
 }
 
 
@@ -9,9 +10,8 @@
 body {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
-
+  background-color: var(--degrondachter);
 }
 
 header {
@@ -21,31 +21,44 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
-   
-
 }
 
 nav {
   background-color: #e0ffe0;
   border: 2px solid var(--start);
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: px 20px;
   font-size: 1.5rem;
   font-weight: bold;
   color: #004d00;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav a { 
+    color: var(--nav-text); 
+    text-decoration: none; 
+    font-weight: 600; 
+}
+nav a:hover { 
+    text-decoration: underline; 
 }
 main {
 
 }
 footer {
-
-}
-}
-
-}
-
-}
 
 }
