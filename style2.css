@@ -1,0 +1,67 @@
+:root {
+   --semgroen: #c3ffb7;
+   --zwart: #000000;
+   --degrondachter: #f5eadd;
+   --EVIL: #ff0000;
+   --EVIL2: #8b0202;
+   --EVIL3: #000000;
+}
+
+
+
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--EVIL3);
+  color: #ffffff;
+}
+
+header {
+   grid-area: header;
+   background-color: var(--EVIL);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav {
+  background-color: #b61414;
+  border: 2px solid var(--start);
+  border-radius: 10px;
+  padding: px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav a { 
+    color: var(--nav-text); 
+    text-decoration: none; 
+    font-weight: 600; 
+}
+nav a:hover { 
+    text-decoration: underline; 
+}
+main {
+
+}
+footer {
+
+}
