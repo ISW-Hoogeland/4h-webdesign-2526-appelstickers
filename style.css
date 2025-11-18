@@ -73,7 +73,19 @@ footer {
 }
 
 img {
-  max-width: 20%;   /* afbeelding schaalt nooit breder dan container */
-  height: auto;      /* behoudt verhoudingen */
-  display: block;    /* voorkomt rare whitespace */
+    width: 100%;
+    display: block;
+    margin: 0 0 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+    break-inside: avoid;     
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+#collage {
+    column-count: 4;         /* kies 2–6 naar smaak */
+    column-gap: 16px;        /* ruimte tussen kolommen */
+    width: 80vw;
+    margin: 0 auto 28px auto;
 }
