@@ -71,3 +71,9 @@ footer {
   color: var(--zwart);
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
+
+img {
+  max-width: 20%;   /* afbeelding schaalt nooit breder dan container */
+  height: auto;      /* behoudt verhoudingen */
+  display: block;    /* voorkomt rare whitespace */
+}
