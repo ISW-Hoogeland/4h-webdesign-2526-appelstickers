@@ -18,13 +18,27 @@ body {
 }
 
 header {
-   grid-area: header;
    background-color: var(--EVIL);
    border-radius: 10px;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   align-items: center;   /* verticaal centreren */
+   justify-content: space-between; /* verdeelt logo links, tekst in midden */
+   margin: 10px;
+   padding: 0 20px;
 }
+
+header img {
+   max-width: 80px;
+   height: auto;
+   margin: 0;   /* haal margin:auto weg */
+}
+
+header h1 {
+   flex: 1;                /* neemt de resterende ruimte */
+   text-align: center;     /* tekst in het midden */
+   margin: 0;              /* geen rare extra marges */
+}
+
 
 nav {
   background-color: #b61414;
